@@ -22,9 +22,9 @@ Using with Windows
 - It may take some time depending on size of Google Spreadsheet
 - Now enter Linkedin Username and Password.
 - Enter a gmail Email Address. Please note that Result Google sheet will be shared automatically with this email address. So you have to be logged in to this email address for viewing result google sheet.
-- Enter Minimum and Maximum Delays between scraping two URL's
+- Enter Minimum and Maximum Delays between scraping two URL's (in seconds)
 .. image:: https://i.postimg.cc/xdSwkZcM/5.png
-- Optionally Enter a name for result Google form.If you do not enter this, a name will be generated with current timestamp.
+- Optionally Enter a name for result Google sheet.If you do not enter this, a name will be generated with current timestamp.
 Headless Scraping
 ===============
 - If you do not tick this "Headless Scraping" Check box, A web browser window will be opened and you can scraping process will be done automatically.
@@ -61,3 +61,41 @@ Start Scraping
 ===============
 - After filling all the required fields, Click on Start Button.
 - Scraping will be started immediately
+
+============
+Using on Linux or MacOS
+============
+
+- You can run this software on Linux or MacOS using source Code
+Installing Python
+===============
+- First You should install python 2.7 for Linux or MacOS 
+- `https://www.python.org/download/releases/2.7/ <https://www.python.org/download/releases/2.7/>`_
+- Then install following python modules using pip
+- ``pip install <module name>``
+- Example -  ``pip install pygsheets``
+List of required python modules
+""""""""""""""""""
+1. pygsheets
+2. urllib
+3. json
+4. PyQt4
+5. selenium
+6. webbrowser
+
+Running Software
+===============
+- After installing Python and required modules, you can open main.py source file using python IDLE
+.. image:: https://i.postimg.cc/52xKQKvF/1.png
+
+- If you run this on Linux or MacOS you should have installed Firefox or Chrome.
+- If you have installed Firefox or Chrome then you have to download suitable Chromedriver for chrome or Geckodriver for Firefox.
+- GeckoDriver - `https://github.com/mozilla/geckodriver/releases <https://github.com/mozilla/geckodriver/releases>`_
+
+- ChromeDriver - `https://chromedriver.chromium.org/downloads <https://chromedriver.chromium.org/downloads>`_
+- Download the package that matches with your OS and Chrome or Firefox version.
+- Then extract downloaded zip file inside the source code of software.
+- 
+- Run Code by pressing ``F5``
+- You will get the same working software with same UI
+.. image:: https://i.postimg.cc/8P7QxW2J/3.png
