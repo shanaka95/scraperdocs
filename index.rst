@@ -27,7 +27,7 @@ Using with Windows
 - Optionally Enter a name for result Google sheet.If you do not enter this, a name will be generated with current timestamp.
 Headless Scraping
 ===============
-- If you do not tick this "Headless Scraping" Check box, A web browser window will be opened and you can scraping process will be done automatically.
+- If you do not tick this "Headless Scraping" Check box, A web browser window will be opened and scraping process will be done automatically.
 - You can see what is going on.
 - But if you want to get rid of this browser window, Just tick on  "Headless Scraping".Then no browser Window Will be opened while scraping.
 Using FireFox
