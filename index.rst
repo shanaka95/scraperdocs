@@ -95,7 +95,51 @@ Running Software
 - ChromeDriver - `https://chromedriver.chromium.org/downloads <https://chromedriver.chromium.org/downloads>`_
 - Download the package that matches with your OS and Chrome or Firefox version.
 - Then extract downloaded zip file inside the source code of software.
-- 
+- Find these lines in ``main.py``
+1. ``driver = webdriver.Firefox(options=options,executable_path=r"./geckodriver.exe")``
+2. ``driver = webdriver.Chrome(chrome_options=chrome_options,executable_path=r"./chromedriver.exe")``
+
+- If you downloaded geckodriver, replace "./geckodriver.exe" in line 1 with "./geckodriver"
+- If you downloaded geckodriver, replace "./chromedriver.exe" in line 2 with "./chromedriver"
 - Run Code by pressing ``F5``
 - You will get the same working software with same UI
 .. image:: https://i.postimg.cc/8P7QxW2J/3.png
+- Enjoy the software!
+
+============
+Remove Credits
+============
+
+- If you want to remove the line ``Developed by Shanaka Anuradha @ UpWork``
+- Open "main.ui" file inside software with any text editor
+
+- Find below text, remove it and save file.
+
+<widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>440</y>
+      <width>281</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>7</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(43, 0, 0)</string>
+    </property>
+    <property name="text">
+     <string>Developed by Shanaka Anuradha @ UpWork</string>
+    </property>
+   </widget>
