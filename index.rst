@@ -15,7 +15,8 @@ Preparing Source File
 - Source file should be hosted as a Google spreadsheet.
 - Ex 
 .. image:: https://i.postimg.cc/rsT3YsgD/12.png
--Then you should share this google sheet with Google service account email address
+
+- Then you should share this google sheet with Google service account email address
 - shanaka@sjp-fot.iam.gserviceaccount.com
 .. image:: https://i.postimg.cc/Y9YT3YNc/9.png
 - Please set Edit Permissions to above mentioned email address
