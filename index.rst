@@ -6,12 +6,14 @@ Installing
 - Extract ``Scraper.zip`` 
 - Double Click on main.exe
 - It should open the software
+
 ============
 Preparing Source File
 ============
+
 - To use this software, you must have a source file which contains list of URL's
 - Source file should be hosted as a Google spreadsheet.
-- Ex -
+- Ex 
 .. image:: https://i.postimg.cc/rsT3YsgD/12.png
 -Then you should share this google sheet with Google service account email address
 - shanaka@sjp-fot.iam.gserviceaccount.com
@@ -20,6 +22,7 @@ Preparing Source File
 - [NOTE] If you are using a different Service account, you should share source file with service account's email address.
 - You can find Service account's email address inside service account's JSON file.
 .. image:: https://i.postimg.cc/1Rp2LGk4/13.png
+
 ============
 Using with Windows
 ============
@@ -38,10 +41,12 @@ Using with Windows
 - Enter Minimum and Maximum Delays between scraping two URL's (in seconds)
 .. image:: https://i.postimg.cc/ZnYvcFk0/11.png
 
+Headless Scraping
 ===============
 - If you do not tick this "Headless Scraping" Check box, A web browser window will be opened and scraping process will be done automatically.
 - You can see what is going on.
 - But if you want to get rid of this browser window, Just tick on  "Headless Scraping".Then no browser Window Will be opened while scraping.
+
 Using FireFox
 ===============
 - FireFox is the recommended web browser for this software.
@@ -155,9 +160,11 @@ Remove Credits
      <string>Developed by Shanaka Anuradha @ UpWork</string>
     </property>
    </widget>
+   
 ============
 Change Google Service Account
 ============
+
 - Follow This article and create a Google Service Account
 - `https://medium.com/@denisluiz/python-with-google-sheets-service-account-step-by-step-8f74c26ed28e <https://medium.com/@denisluiz/python-with-google-sheets-service-account-step-by-step-8f74c26ed28e>`_
 - Download JSON file which contains authentication details
