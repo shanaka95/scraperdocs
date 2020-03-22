@@ -36,6 +36,17 @@ Using with Windows
 - Here is how you can find ID of google Spreadsheet
 .. image:: https://i.postimg.cc/Hk5GkmsT/4.png
 
+Skip already scraped URL's
+===============
+- If you stop the scraper before completing all the URL's, you can resume it
+- Enter the same Source file and tick "Skip already scraped URL's" checkbox
+- Then scraper will only scrap URL's which are not scraped previously or which had errors while scraping.
+- If you do not tick on "Skip already scraped URL's" checkbox, scraper will start from beginning of source file's URL list.
+
+
+Load URL's
+===============
+
 - Click on Load URL's Button
 - It may take some time depending on size of Google Spreadsheet
 - Now enter Linkedin Username and Password.
@@ -52,8 +63,7 @@ Using FireFox
 ===============
 - FireFox is the recommended web browser for this software.
 - You have to install latest Firefox WebBrowser before using this software.
-- If you have installed FireFox, You do not need any other thing to do.Just Select "Use FireFox"
-radio button
+- If you have installed FireFox, You do not need any other thing to do.Just Select "Use FireFox" radio button
 
 Using Chrome
 ===============
@@ -125,6 +135,21 @@ Running Software
 - Enjoy the software!
 
 ============
+Change Google Service Account
+============
+
+- Follow This article and create a Google Service Account
+- `https://medium.com/@denisluiz/python-with-google-sheets-service-account-step-by-step-8f74c26ed28e <https://medium.com/@denisluiz/python-with-google-sheets-service-account-step-by-step-8f74c26ed28e>`_
+- Download JSON file which contains authentication details
+- Rename JSON file to "sjp-fot-fc1cbfbc9993.json"
+- Copy JSON file to software folder.Replace exsisting one.
+- Now you are ready to use your google Service account.
+- Please note that you have to share source file with new Service account's email address.
+- You can find Service account's email address inside JSON file.
+.. image:: https://i.postimg.cc/1Rp2LGk4/13.png
+
+
+============
 Remove Credits
 ============
 
@@ -162,16 +187,3 @@ Remove Credits
     </property>
    </widget>
    
-============
-Change Google Service Account
-============
-
-- Follow This article and create a Google Service Account
-- `https://medium.com/@denisluiz/python-with-google-sheets-service-account-step-by-step-8f74c26ed28e <https://medium.com/@denisluiz/python-with-google-sheets-service-account-step-by-step-8f74c26ed28e>`_
-- Download JSON file which contains authentication details
-- Rename JSON file to "sjp-fot-fc1cbfbc9993.json"
-- Copy JSON file to software folder.Replace exsisting one.
-- Now you are ready to use your google Service account.
-- Please note that you have to share source file with new Service account's email address.
-- You can find Service account's email address inside JSON file.
-.. image:: https://i.postimg.cc/1Rp2LGk4/13.png
