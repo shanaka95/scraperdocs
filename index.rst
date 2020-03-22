@@ -7,6 +7,17 @@ Installing
 - Double Click on main.exe
 - It should open the software
 ============
+Preparing Source File
+============
+- To use this software, you must have a source file which contains list of URL's
+- Source file should be hosted as a Google spreadsheet.
+- Ex -
+.. image:: https://i.postimg.cc/rsT3YsgD/12.png
+-Then you should share this google sheet with Google service account email address
+- shanaka@sjp-fot.iam.gserviceaccount.com
+.. image:: https://i.postimg.cc/Y9YT3YNc/9.png
+- Please set Edit Permissions to above mentioned email address
+============
 Using with Windows
 ============
 
@@ -21,11 +32,9 @@ Using with Windows
 - Click on Load URL's Button
 - It may take some time depending on size of Google Spreadsheet
 - Now enter Linkedin Username and Password.
-- Enter a gmail Email Address. Please note that Result Google sheet will be shared automatically with this email address. So you have to be logged in to this email address for viewing result google sheet.
 - Enter Minimum and Maximum Delays between scraping two URL's (in seconds)
 .. image:: https://i.postimg.cc/ZnYvcFk0/11.png
-- Optionally Enter a name for result Google sheet.If you do not enter this, a name will be generated with current timestamp.
-Headless Scraping
+
 ===============
 - If you do not tick this "Headless Scraping" Check box, A web browser window will be opened and scraping process will be done automatically.
 - You can see what is going on.
@@ -143,3 +152,14 @@ Remove Credits
      <string>Developed by Shanaka Anuradha @ UpWork</string>
     </property>
    </widget>
+============
+Change Google Service Account
+============
+- Follow This article and create a Google Service Account
+- `https://medium.com/@denisluiz/python-with-google-sheets-service-account-step-by-step-8f74c26ed28e <https://medium.com/@denisluiz/python-with-google-sheets-service-account-step-by-step-8f74c26ed28e>`_
+- Download JSON file which contains authentication details
+- Rename JSON file to "sjp-fot-fc1cbfbc9993.json"
+- Copy JSON file to software folder.Replace exsisting one.
+- Now you are ready to use your google Service account.
+- Please note that you have to share source file with new Service account's email address.
+- You can find Service account's email address inside JSON file.
