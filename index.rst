@@ -17,6 +17,9 @@ Preparing Source File
 - shanaka@sjp-fot.iam.gserviceaccount.com
 .. image:: https://i.postimg.cc/Y9YT3YNc/9.png
 - Please set Edit Permissions to above mentioned email address
+- [NOTE] If you are using a different Service account, you should share source file with service account's email address.
+- You can find Service account's email address inside service account's JSON file.
+.. image:: https://i.postimg.cc/1Rp2LGk4/13.png
 ============
 Using with Windows
 ============
@@ -163,3 +166,4 @@ Change Google Service Account
 - Now you are ready to use your google Service account.
 - Please note that you have to share source file with new Service account's email address.
 - You can find Service account's email address inside JSON file.
+.. image:: https://i.postimg.cc/1Rp2LGk4/13.png
