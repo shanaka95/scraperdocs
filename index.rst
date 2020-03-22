@@ -11,7 +11,7 @@ Using with Windows
 ============
 
 - Open the software
-.. image:: https://i.postimg.cc/8P7QxW2J/3.png
+.. image:: https://i.postimg.cc/SshMXbD6/10.png
 
 
 - Enter Google Sheet ID. Please Note that DO NOT Enter Google Page URL
@@ -23,7 +23,7 @@ Using with Windows
 - Now enter Linkedin Username and Password.
 - Enter a gmail Email Address. Please note that Result Google sheet will be shared automatically with this email address. So you have to be logged in to this email address for viewing result google sheet.
 - Enter Minimum and Maximum Delays between scraping two URL's (in seconds)
-.. image:: https://i.postimg.cc/xdSwkZcM/5.png
+.. image:: https://i.postimg.cc/ZnYvcFk0/11.png
 - Optionally Enter a name for result Google sheet.If you do not enter this, a name will be generated with current timestamp.
 Headless Scraping
 ===============
