@@ -89,6 +89,13 @@ Start Scraping
 ===============
 - After filling all the required fields, Click on Start Button.
 - Scraping will be started immediately
+.. image:: https://i.postimg.cc/kGRpjr4j/11.jpg
+
+View Result
+===============
+- Scraped data will be appended to source Google Sheet.
+- You can Manually view it or click on "View Results on Google Sheets" button
+.. image:: https://i.postimg.cc/PxFzCrFC/14.png
 
 ============
 Using on Linux or MacOS
